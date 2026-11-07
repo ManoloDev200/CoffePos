@@ -1,0 +1,9 @@
+.Contenedor_logo {
+ display: inline-block;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+}
