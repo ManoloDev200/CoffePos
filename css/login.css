@@ -1,4 +1,36 @@
-h1 {
+.MainHeader
+{
+  background-color: #23f878;
+}
+
+.logo
+{
+display: inline-block;
+}
+
+.mensaje_bienvenida
+{
+  display: inline-block;
+}
+h1{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+
+
+main {
+  padding: 20px;
   text-align: center;
-  color: #0004f2;
-  font-size: 2.6rem;}
+  background-color: #e20303;
+  border-top: 1px solid #ccc;
+}
+
+footer {
+  background-color: #23f878;
+  padding: 10px;
+  text-align: center;
+  color: #030000;
+  border-top: 1px solid #ffffff;
+}
