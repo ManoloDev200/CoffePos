@@ -5,14 +5,22 @@
 
 .logo
 {
-display: inline-block;
+width: 250px;
 }
 
-.mensaje_bienvenida
+.Contenedor_Logo
+{
+display: inline-block;
+vertical-align: top;
+}
+
+.Contenedor_mensaje_bienvenida
 {
   display: inline-block;
+  vertical-align: top;
 }
-h1{
+.Mensaje_bienvenida
+{
   margin-bottom: 10px;
   margin-top: 10px;
   margin-left: 10px;
