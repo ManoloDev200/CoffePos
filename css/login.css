@@ -1,9 +1,104 @@
-.Contenedor_logo {
- display: inline-block;
+.pagina-login{
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  width: 98vw;
+  height: 98vh;
 }
 
-.logo {
-  width: 200px;
-  height: auto;
-  margin: 0 auto;
+.columna-izquierda{
+ display: flex;
+ flex: 1;
+
+}
+
+.columna-derecha{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: #ffffff;
+}
+
+
+.Contenedor_logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.Logo_empresa{
+  width: 500px;
+  height: 500px;
+}
+
+.Contenedor_bienvenida{
+  margin-top: 20px;
+  display: inline-block;
+  border: 1px solid hsl(301, 100%, 50%);
+}
+
+.Mensaje_bienvenida{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: block;
+  font-size: 40px;
+  font-weight: bold;
+  color: #01a469;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.Contenedor_formulario{
+  display: inline-block;
+  margin: 60px;
+  padding: 170px;
+  border-radius: 20px;
+  box-shadow: 15px 9px 10px rgba(0, 0, 0, 0.1);
+}
+
+.usuario{
+  margin-bottom: 20px;
+  
+}
+
+.iniciar-sesion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.contraseña{
+  margin-bottom: 20px;
+  
+}
+
+.recordar-contraseña{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.redes-sociales{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.boton-google{
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+  .boton-facebook{
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
 }

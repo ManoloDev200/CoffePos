@@ -10,12 +10,66 @@
 
   <body>
 
-    <div class = "Contenedor_logo">
-      <img src = "Imagenes/logo_CoffePOS.jpg" alt = "Logo de la empresa" class = "logo">
+    <div class="pagina-login">
+    
+    <div class="columna-izquierda">
+      <div class="Contenedor_logo">
+        <img src="Imagenes/logo_CoffePOS.jpg" alt="Logo de la empresa" class="Logo_empresa">
+      </div>
     </div>
-    <div>
+    
+
+    <div class="columna-derecha">
+
+      <div class="Contenedor_bienvenida">
+          <p class="Mensaje_bienvenida">Hola bienvenido</p>
+      </div>
+
+      <div class="Contenedor_formulario">
+
+        <form class="formulario_login" action="login.php" method="POST">
+
+          <div class="usuario">
+            <input type="text" name="usuario" placeholder="Usuario" required>
+          </div>
+
+          <div class="contraseña">
+            <input type="password" name="contraseña" placeholder="Contraseña" required>
+          </div>
+
+          <div class="recordar-contraseña">
+            <input type="checkbox" name="recordar" id="recordar">
+            <label for="recordar">Recordar Contraseña</label>
+
+          </div>
+            
+          <div class ="iniciar-sesion">
+            <button type="submit">Iniciar Sesión</button>
+          </div>
+          
+          <div class ="or-login" 
+            style
+            ="margin-bottom: 20px;
+              margin-top: 20px; font-size: 16px;
+              color:rgb(0, 152, 101);
+              font-weight: bold;
+              font-family: 'Arial', sans-serif;
+              text-align: center;
+              ">
+            <tag> O iniciar sesión en</tag>
+          </div>
+
+          <div class="redes-sociales">
+            <img src="Imagenes/facebook_logo.png" alt="Facebook" class="boton-facebook">
+            <img src="Imagenes/google_logo.png" alt="Google" class="boton-google">
+          </div>
+
+        </form>
+
+      </div>
 
     </div>
+  </div>
     
 
   </body>
