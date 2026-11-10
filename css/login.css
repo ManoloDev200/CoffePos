@@ -41,23 +41,23 @@
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   display: block;
   font-size: 40px;
-  font-weight: bold;
+  font-weight:normal;
   color: #01a469;
   margin-top: 20px;
   text-align: center;
 }
 
 .Contenedor_formulario{
-  display: inline-block;
-  margin: 60px;
-  padding: 170px;
+  display: flex;
+  margin: 40px;
+  padding: 90px;
   border-radius: 20px;
-  box-shadow: 15px 9px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 25px 20px 20px rgba(0, 0, 0, 0.1);
 }
 
 .usuario{
   margin-bottom: 20px;
-  
+  text-align: center;
 }
 
 .iniciar-sesion{
@@ -69,7 +69,7 @@
 
 .contraseña{
   margin-bottom: 20px;
-  
+  text-align: center;
 }
 
 .recordar-contraseña{
@@ -79,6 +79,7 @@
   margin-bottom: 20px;
   font-size: 14px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  justify-content: center;
 }
 
 .redes-sociales{
@@ -101,4 +102,14 @@
   width: 50px;
   height: 50px;
   margin-bottom: 20px;
+}
+
+.logo_secundario{
+  width: 200px;
+  height: 150px;
+  margin-bottom: 50px;
+}
+
+.formulario_login{
+  margin-left: 20px;
 }

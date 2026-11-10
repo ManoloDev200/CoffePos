@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang = "es">
+<html lang = "es" style = "height: 100%; width: 100%; margin: 0; padding: 0;">
   <head>
     <meta charset = "UTF-8">
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
@@ -13,8 +13,10 @@
     <div class="pagina-login">
     
     <div class="columna-izquierda">
-      <div class="Contenedor_logo">
-        <img src="Imagenes/logo_CoffePOS.jpg" alt="Logo de la empresa" class="Logo_empresa">
+      <div class="Contenedor_logo" style="
+        filter: brightness(1.4) contrast(1.2); 
+        mix-blend-mode: multiply;">
+        <img src="Imagenes/logo_coffePos.jpg" alt="Logo de la empresa" class="Logo_empresa">
       </div>
     </div>
     
@@ -22,13 +24,20 @@
     <div class="columna-derecha">
 
       <div class="Contenedor_bienvenida">
-          <p class="Mensaje_bienvenida">Hola bienvenido</p>
+          <p class="Mensaje_bienvenida">Hola bienvenido!</p>
       </div>
 
       <div class="Contenedor_formulario">
 
-        <form class="formulario_login" action="login.php" method="POST">
-
+        <div class="Contenedor_logo_secundario" style=
+          "display: flex;
+          justify-content: center;
+          align-items: center;">
+          <img src="Imagenes/logo_secundario.jpg" alt="Logo Secundario" class="logo_secundario">
+        </div>
+      <div class="formulario_login">
+        <form  action="login.php" method="POST">
+          
           <div class="usuario">
             <input type="text" name="usuario" placeholder="Usuario" required>
           </div>
@@ -65,6 +74,7 @@
           </div>
 
         </form>
+      </div>
 
       </div>
 
