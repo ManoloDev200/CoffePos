@@ -86,22 +86,43 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 15px;
 
 }
 .boton-google{
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
-  margin-bottom: 20px;
-  margin-left: 10px;
+  width: 35px;
+  height: 35px;
+  margin-bottom: 0px;
+  margin-left: 0px;
 }
   .boton-facebook{
   justify-content: center;
   align-items: center;
-  width: 50px;
-  height: 50px;
-  margin-bottom: 20px;
+  width: 45px;
+  height: 45px;
+  margin-bottom: 0px;
+}
+
+.boton-facebook,
+.boton-google {
+  object-fit: contain;
+  transition: transform 0.25s ease-in-out, filter 0.25s ease-in-out;
+}
+
+.btn-red-social:hover .boton-facebook,
+.btn-red-social:hover .boton-google {
+  transform: scale(1.2); /* Crece un 20% al pasar el mouse */
+  filter: brightness(1.1); /* Ligera iluminación adicional */
+}
+
+.btn-red-social{
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
 }
 
 .logo_secundario{
